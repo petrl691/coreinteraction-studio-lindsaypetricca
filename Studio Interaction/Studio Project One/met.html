@@ -1,0 +1,43 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="met.css">
+</head>
+<body>
+<div class="homebutton"><a href="projectoneindex.html">MW</a></div>
+
+<div class="box" id="boxleft"><div class="paraone">On behalf of the <span class="met"><a href="http://www.metmuseum.org/">Metropolitan Museum</a></span>, Director Thomas P. Campbell said: “We are extremely pleased to be able to enter into this collaboration. With this new space, we can expand the story that the Met tells, exploring modern and contemporary art in a global context that reflects the breadth of our encyclopedic <span class="collect"><a href="http://www.metmuseum.org/collection">collections</a></span>. This will be an initiative that involves curators across the Museum, stressing historical connections between objects and looking at our holdings with a fresh eye and new perspective. This project does not mean that we are taking modern and contemporary art out of the Met’s Main Building, but it does open up the possibility of having space to exhibit these collections in the event that we decide to rebuild the Lila Acheson Wallace Wing where they are currently shown. The Whitney will open its new location in 2015, so I look forward to developing our ideas around this project in the intervening years. It is an amazing opportunity, filled with possibilities for our art and our audience.”</div></div>
+
+<div class="box" id="boxmiddle"><div class="paratwo">During the term of the agreement, the Metropolitan Museum plans to provide programming in the Breuer building, including <span class="exhibit"><a href="http://www.metmuseum.org/exhibitions">exhibitions</a></span>, <span class="lectures"><a href="http://www.metmuseum.org/events/programs/met-speaks">lectures</a></span>, and <span class="tour"><a href="http://www.metmuseum.org/events/programs/met-tours">gallery</a></span> tours that present and interpret both contemporary and historical art in a global context. The Met would also provide amenities for visitors including food services and retail operations. The Whitney would retain use of some space in the building for art storage, as well as for site-specific works of art that will remain there on a permanent basis.</div></div>
+
+<div class="box" id="boxmiddleright"><div class="parathree">The Metropolitan Museum of Art is one of the world's largest and finest museums, with collections of nearly two million works of art that span 5,000 years of world culture, from prehistory to the present and from every part of the <span class="globe"><a href="http://www.metmuseum.org/one-met-many-worlds/">globe</a></span>. The Metropolitan Museum, which was founded in 1870, is located at the edge of Central Park along Fifth Avenue in Manhattan, and received 5.24 million visitors last year.
+</div></div>
+
+
+<div class="box" id="boxright"><div class="parafour">
+“This collaboration between The Metropolitan Museum of Art and the <span class="whitney"><a href="Whitney.html">Whitney Museum of American Art</a></span>, two of the world’s most esteemed cultural institutions, is great news for New York City,” said Mayor Michael R. Bloomberg. “Even after the Whitney opens its new downtown home, the historic Breuer building will continue to serve as an exceptional venue for exhibitions, lectures, and gallery tours, benefiting the millions of New Yorkers and visitors from around the world who enjoy world-class arts programming.”
+
+</div></div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+<script>
+
+function blinker() {
+    $('span.met,span.collect,span.exhibit,span.lectures,span.tour,span.globe,span.whitney').fadeOut(500);
+    $('span.met,span.collect,span.exhibit,span.lectures,span.tour,span.globe,span.whitney').fadeIn(500);
+}
+
+setInterval(blinker, 1000);
+
+
+
+</script>
+
+</body>
+</html>

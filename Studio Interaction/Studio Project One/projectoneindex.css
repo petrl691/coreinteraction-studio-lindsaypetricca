@@ -1,0 +1,50 @@
+body {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	font-family: futura;
+	text-align:center;
+	font-size: 70px;
+
+}
+
+.stripe{
+	width:1450px;
+	height:120px;
+	background-color: black;
+	display: inline block;
+	margin-bottom: 80px;
+	animation:colorchangestripe 2s infinite;
+	animation-direction: alternate;
+}
+
+@keyframes colorchangestripe {
+  
+  0% {
+    background-color: black;
+  }
+  100% {
+    background-color: white;
+	}
+
+}
+
+span.whitney {
+	-webkit-text-stroke: 2px white;	
+}
+
+span.met {
+	-webkit-text-stroke: 2px white;	
+
+}
+
+span.museum {
+	color:black;
+}
+
+a {
+	text-decoration: none;
+		-webkit-text-stroke: 2px white;	
+		color:black;
+}	
