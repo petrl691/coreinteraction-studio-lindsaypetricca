@@ -1,0 +1,55 @@
+body {
+	height:50px;
+	width:10000px;
+	background:linear-gradient(to right, white , black);
+	 background-repeat: no-repeat;
+	 background-attachment: fixed; 
+}
+
+.circleone {
+	height:20px;
+	width:20px;
+	border-radius:10px;
+	background-color: red;
+	margin-top: 300px;
+	margin-left:700px;
+	position: absolute;
+}
+
+.circletwo {
+	height:40px;
+	width:40px;
+	border-radius:20px;
+	background-color: red;
+	margin-top: 300px;
+	margin-left:2000px;
+	position: absolute;
+	animation-name: animation;
+	animation-duration: infinite;
+}
+
+.circlethree {
+	height:60px;
+	width:60px;
+	border-radius:30px;
+	background-color: red;
+	margin-top: 300px;
+	margin-left:4000px;
+	position: absolute;
+	animation-name: move;
+	animation-duration: infinite;
+}
+
+@keyframes animation {
+	from: background-color:red;
+
+	to: background-color: white;
+}
+
+@keyframes move {
+    0%   {margin-left: 4200px;}
+    25%  {margin-top: 450px;}
+    50%  {margin-left: 5000px;}
+    100% {margin-top: 500px;}
+}
+
