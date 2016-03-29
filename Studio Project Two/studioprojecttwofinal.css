@@ -1,0 +1,93 @@
+body{
+	margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  background-color: black;
+    font-family:'Raleway';
+  font-size: 3px;
+}
+
+.container {
+	margin-top:20%;
+	margin-left: 12%;
+	width:1000px;
+	height: 20%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+	z-index: 10;
+	margin-bottom: 3px;
+
+}
+
+.boxone{
+	background-color: white;
+	width: 60px;
+	height:60px;
+	text-align: center;
+	margin-left: 50px;
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	-o-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	transition-property: transform;
+	overflow:hidden;
+	transition: all .2s ease-in-out;
+}
+
+.boxone:hover{
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	transform: scale(10); 
+	background-color: ;
+
+
+}
+
+span.one {
+	font-size: 10px;
+}
+
+span.two {
+	font-size: 10px;
+}
+
+span.three {
+	font-size: 7px;
+}
+span.four{
+	font-size: 2.5px;
+	line-height: 1.75;
+	padding: 5px;
+}
+span.five{
+	font-size: 2.5px;
+	line-height: 1.75;
+	padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

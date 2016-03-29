@@ -1,0 +1,106 @@
+body{
+	margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  background-color: black;
+}
+.container {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+	z-index: 10;
+}
+
+.box{
+	background-color: white;
+	width: 70px;
+	height: 70px;
+  margin: 2px;
+	z-index: 10; 
+}
+
+.box:hover{
+  background-color: transparent;
+  width: 70px;
+  height: 70px;
+  margin: 2px;
+  z-index: 10; 
+}
+
+.content {
+  color: white;
+  z-index: 9;
+  position: absolute;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+span#psych {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+  color: black;
+  z-index: 9;
+  position: absolute;
+  font-size: 50px;
+}
+span#psych:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.p1{
+  font-size: 80px;
+}
+
+.p2{
+  font-size:30px;
+  font-style: italic;
+  text-align: left;
+  margin-left: 50%;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.p3 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-style: italic;
+    text-align: left;
+    margin-left: 50%;
+    text-align: justify;
+}
+
+.p4{
+  margin-bottom: 40px;
+  font-size:45px;
+  line-height: 120%;
+  width: 50%;
+}
+
+.p5{
+  margin-bottom: 40px;
+  font-size:45px;
+  line-height: 120%;
+  width: 50%;
+  margin-left: 50%;
+}
+
+.p6{
+  margin-bottom: 40px;
+  font-size:45px;
+  line-height: 120%;
+  width: 50%;
+}
+.p7{
+  margin-bottom: 40px;
+  font-size:45px;
+  line-height: 120%;
+  width: 50%;
+  margin-left: 50%;
+}

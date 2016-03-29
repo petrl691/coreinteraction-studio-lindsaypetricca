@@ -1,0 +1,44 @@
+body{
+	margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+.container {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+	z-index: 10;
+}
+
+.box {
+	background-color: black;
+	width: 150px;
+	height: 150px;
+  margin: 1px;
+	z-index: 10;
+}
+
+.content {
+  color: black;
+  z-index: 9;
+  position: absolute;
+  font-size: 50px;
+  font-family: helvetica;
+  margin: 100px
+}
+
+span#psych {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+  color: black;
+  z-index: 9;
+  position: absolute;
+  font-size: 50px;
+}
+span#psych:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}

@@ -1,6 +1,7 @@
 body {
-	background-image:linear-gradient(white, black);
+	background-color:black;
 	color:white;
+	font-family: 
 }
 
 .box1 {
@@ -8,11 +9,11 @@ body {
 	height:315px;
 	border:2px solid black;
 	padding:50px;
-	font-size:50px;
+	font-size:10px;
 	margin-bottom: 10px;
 	margin-left: 50px;
 	animation-name: bounce;
-	animation-duration:10s;
+	animation-duration:5s;
 	animation-iteration-count: infinite;
 	font-size: 10px;
 	display:inline-block;
@@ -28,7 +29,7 @@ body {
 	margin-bottom: 10px;
 	margin-left: 50px;
 	animation-name: bounce2;
-	animation-duration:8s;
+	animation-duration:5s;
 	animation-iteration-count: infinite;
 	font-size: 10px;
 	display:inline-block;
@@ -40,11 +41,11 @@ body {
 	height:315px;
 	border:2px solid black;
 	padding:50px;
-	font-size:20px;
+	font-size:15px;
 	margin-bottom: 10px;
 	margin-left: 50px;
 	animation-name: bounce3;
-	animation-duration:15s;
+	animation-duration:5s;
 	animation-iteration-count: infinite;
 	font-size: 10px;
 	display:inline-block;
@@ -52,11 +53,11 @@ body {
 }
 
 .box4 {
-	width:215px;
-	height:215px;
+	width:315px;
+	height:315px;
 	border:2px solid black;
 	padding:50px;
-	font-size:15px;
+	font-size:10px;
 	margin-bottom: 10px;
 	margin-left: 30px;
 	animation-name: bounce4;
@@ -71,11 +72,11 @@ body {
 	height:315px;
 	border:2px solid black;
 	padding:50px;
-	font-size:30px;
+	font-size:15px;
 	margin-bottom: 10px;
 	margin-left: 50px;
 	animation-name: bounce5;
-	animation-duration:4s;
+	animation-duration:5s;
 	animation-iteration-count: infinite;
 	font-size: 10px;
 	display:inline-block;
@@ -87,11 +88,11 @@ body {
 	height:315px;
 	border:2px solid black;
 	padding:50px;
-	font-size:30px;
+	font-size:15px;
 	margin-bottom: 10px;
 	margin-left: 50px;
 	animation-name: bounce6;
-	animation-duration:2s;
+	animation-duration:5s;
 	animation-iteration-count: infinite;
 	font-size: 10px;
 	display:inline-block;
@@ -100,67 +101,67 @@ body {
 
 
 @keyframes bounce {
-	10% {width:310px;}
+	10% {width:320px;}
 
-	30% {width:250px;}
+	30% {width:330px;}
 
-	50% {width:210px;}
+	50% {width:340px;}
 
-	60% {width:150px;}
+	60% {width:350px;}
 
-	70% {width:110px;}
+	70% {width:360px;}
 
 }
 
 @keyframes bounce2 {
-	10% {width:400px;}
+	10% {width:315px;}
 
-	30% {width:550px;}
+	30% {width:305px;}
 
-	50% {width:600px;}
+	50% {width:295px;}
 
-	60% {width:650px;}
+	60% {width:285px;}
 
-	70% {width:700px;}
+	70% {width:275px;}
 
 }
 
 @keyframes bounce3 {
-	10% {height:200px;}
+	10% {width:320px;}
 
-	30% {width:215px;}
+	30% {width:330px;}
 
-	50% {width:100px;}
+	50% {width:340px;}
 
-	60% {width:115px;}
+	60% {width:350px;}
 
-	70% {width:100px;}
+	70% {width:360px;}
 
 }
 
 @keyframes bounce4 {
-	10% {width:150px;}
+	10% {width:300px;}
 
-	30% {width:100px;}
+	30% {width:280px;}
 
-	50% {width:50px;}
+	50% {width:260px;}
 
-	60% {width:30px;}
+	60% {width:240px;}
 
-	70% {width:20px;}
+	70% {width:230px;}
 
 }
 
 @keyframes bounce5 {
-	10% {width:400px;}
+	10% {width:320px;}
 
-	30% {width:550px;}
+	30% {width:350px;}
 
-	50% {width:600px;}
+	50% {width:380px;}
 
-	60% {width:650px;}
+	60% {width:400px;}
 
-	70% {width:700px;}
+	70% {width:450px;}
 
 }
 
