@@ -33,7 +33,7 @@ body{
   color: white;
   z-index: 9;
   position: absolute;
-  font-size: 25px;
+  font-size: 15px;
   font-family: 'Oswald', sans-serif;
   margin-left: 50px;
   margin-right: 50px;
@@ -47,7 +47,7 @@ span#psych {
   color: black;
   z-index: 9;
   position: absolute;
-  font-size: 50px;
+  font-size: 20px;
 }
 span#psych:hover {
   -webkit-transform: rotate(360deg);
@@ -56,10 +56,11 @@ span#psych:hover {
 
 .p1{
   font-size: 80px;
+
 }
 
 .p2{
-  font-size:30px;
+  font-size:25px;
   font-style: italic;
   text-align: left;
   margin-left: 50%;
@@ -68,8 +69,8 @@ span#psych:hover {
 }
 
 .p3 {
-    margin-bottom: 40px;
-    font-size: 30px;
+    margin-bottom: 50px;
+    font-size: 25px;
     font-style: italic;
     text-align: left;
     margin-left: 50%;
@@ -77,30 +78,111 @@ span#psych:hover {
 }
 
 .p4{
-  margin-bottom: 40px;
-  font-size:45px;
+  margin-bottom: 50px;
+  font-size:15px;
   line-height: 120%;
   width: 50%;
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+  overflow:hidden;
+  transition: all .2s ease-in-out;
+  
 }
 
 .p5{
-  margin-bottom: 40px;
-  font-size:45px;
+  margin-bottom: 50px;
+  font-size:15px;
   line-height: 120%;
   width: 50%;
   margin-left: 50%;
+   -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+  overflow:hidden;
+  transition: all .2s ease-in-out;
 }
 
 .p6{
-  margin-bottom: 40px;
-  font-size:45px;
+  margin-bottom: 50px;
+  font-size:15px;
   line-height: 120%;
   width: 50%;
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+  overflow:hidden;
+  transition: all .2s ease-in-out;
 }
 .p7{
   margin-bottom: 40px;
-  font-size:45px;
+  font-size:15px;
   line-height: 120%;
   width: 50%;
   margin-left: 50%;
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+  overflow:hidden;
+  transition: all .2s ease-in-out;
+}
+
+.p4:hover{
+
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  transform: scale(2); 
+
+}
+
+.p5:hover{
+
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  transform: scale(2); 
+
+}
+
+.p6:hover{
+
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  transform: scale(2); 
+
+}
+
+.p7:hover{
+
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  transform: scale(2); 
+
 }
