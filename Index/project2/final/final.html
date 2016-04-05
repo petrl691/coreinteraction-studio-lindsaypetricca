@@ -3,61 +3,59 @@
 	<title></title>
 
 	<link rel="stylesheet" type="text/css" href="final.css">
-
+	<meta charset="UTF-8">
 </head>
 <body>
 
 	<div class="pagecontain">
-
 			<div class="container-horizontal">
+					
+					<div class="words">Learn more about the hidden biases<br> and assumptions that we all carry during this <br>interactive training. Speakers Seisei Tatebe-Goddu and <br>Hannah Allison will discuss techniques in which we can <br>recognize and work with our biases.<br><div class="scroll">We will be discussing methods such as the “Flower of Power” which explores the basis of cultural differences. We will use this activity to understand where we stand versus where others stand in order to evaluate the biases we may carry.</div></div>
+
+					<div class="texttitle">UNCOVERING HIDDEN BIASES</div> 
+
+					<div class="and">AND ASSUMPTIONS</div>
+
+					<div class="location">The New York Junior League<br>Astor House<br>130 East 80th Street<br>New York, NY 10075</div>
+
+					<div class="datetime">Monday March 25th, 2016<br>7:00—9:00 PM</div>
+
 					<div class="halfleft"></div>
 			</div>
 
 			<div class="container-vertical">
-				<div class="containerinsidegreen">
+				<div class="containerinside">
 					<div class="containerleft"></div>
 					<div class="containerleftbottom"></div>
 					<div class="bottomrightquarter"></div>
 				</div>
 			</div>
-		</div>
 
-	<div class="pagecontain">
-
-			<div class="container-horizontal">
-					<div class="halfleft"></div>
+			<div class="sqcontain">
+				<div class="square1"></div>
+				<div class="square2"></div>
+				<div class="square3"></div>
+				<div class="square4"></div>
 			</div>
+	</div>
+	
 
-			<div class="container-vertical">
-				<div class="containerinsidegreen">
-					<div class="containerleft"></div>
-					<div class="containerleftbottom"></div>
-					<div class="bottomrightquarter"></div>
-				</div>
-			</div>
-		</div>
 
-		<div class="pagecontain">
-
-			<div class="container-horizontal">
-					<div class="halfleft"></div>
-			</div>
-
-			<div class="container-vertical">
-				<div class="containerinsidegreen">
-					<div class="containerleft"></div>
-					<div class="containerleftbottom"></div>
-					<div class="bottomrightquarter"></div>
-				</div>
-			</div>
-		</div>
-		
 
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 
 <script type="text/javascript">
+
 $(".toprightquarter").click(function(){
     $(".toprightquarter").animate({
+        opacity: '0.5',
+        height: '50%',
+        width: '0px'
+    });
+});
+
+$(".toprightquarter").click(function(){
+    $(".texttitle").show({
         opacity: '0.5',
         height: '50%',
         width: '0px'
@@ -88,16 +86,64 @@ $(".containerleft").click(function(){
     });
 });
 
-$(".div").click(function(){
-    $(".div").animate({
+$(".containerleftbottom").click(function(){
+    $(".containerleftbottom").animate({
         opacity: '0.5',
         height: '50%',
         width: '0px'
     });
 });
 
-$(".containerleftbottom").click(function(){
-    $(".containerleftbottom").animate({
+$( ".square1" ).click(function() {
+  $( ".texttitle,.and" ).show( "fast" );
+});
+
+$( ".square2" ).click(function() {
+  $( ".location" ).show( "fast" );
+});
+
+$( ".square3" ).click(function() {
+  $( ".words" ).show( "fast" );
+});
+
+$( ".square4" ).click(function() {
+  $( ".datetime" ).show( "fast" );
+});
+
+$(".containerleft2").click(function(){
+    $(".containerleft2").animate({
+        opacity: '0.5',
+        height: '50%',
+        width: '0px'
+    });
+});
+
+$(".containerleftbottom2").click(function(){
+    $(".containerleftbottom2").animate({
+        opacity: '0.5',
+        height: '50%',
+        width: '0px'
+    });
+});
+
+$(".quarterleft").click(function(){
+    $(".quarterleft").animate({
+        opacity: '0.5',
+        height: '50%',
+        width: '0px'
+    });
+});
+
+$(".container-vertical2").click(function(){
+    $(".container-vertical2").animate({
+        opacity: '0.5',
+        height: '50%',
+        width: '0px'
+    });
+});
+
+$(".contain2").click(function(){
+    $(".contain2").animate({
         opacity: '0.5',
         height: '50%',
         width: '0px'
