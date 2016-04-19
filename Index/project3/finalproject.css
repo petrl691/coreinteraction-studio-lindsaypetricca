@@ -1,0 +1,50 @@
+body{
+	background-color: black;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.circle{
+   width: 300px;
+   height: 300px; 
+   border-radius: 200px;
+	border-color: white;
+	background-color: transparent;
+	margin-top: 15%;
+	margin-left: 40%;
+	border: 3px solid white;
+}
+
+.one{
+	color: white;
+	font-size: 10pt;
+	transform:rotate(20deg);
+	margin-top: -10%;
+	margin-left: 8%;
+}
+
+.two{
+	color: white;
+	font-size: 10pt;
+	transform:rotate(10deg);
+	margin-top: -2%;
+	margin-left: 8%;
+}
+
+.three{
+	color: white;
+	font-size: 10pt;
+	transform:rotate(4deg);
+	margin-left: 8%;
+}
+.one:hover
+{
+  font-size:15px;
+}
+.two:hover
+{
+  font-size:15px;
+}
+.three:hover
+{
+  font-size:15px;
+}

@@ -1,0 +1,82 @@
+body{
+	background-color: black;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+	background-color: transparent;
+	margin-top: 15%;
+	margin-left: 20%;
+	width: 60%;
+}
+
+.one{
+	color: #006ef4;
+	font-size: 25pt;
+	
+}
+
+.two{
+	color: #ce6ef4;
+	font-size: 25pt;
+
+}
+
+.three{
+	color: #5fd65e;
+	font-size: 25pt;
+}
+
+.four{
+	color: #ccd65e;
+	font-size: 25pt;
+}
+
+.five{
+	color: #cc7157;
+	font-size: 25pt;
+}
+
+.six{
+	color: #cc7157;
+	font-size: 25pt;
+}
+
+.one:hover
+{
+  font-size:30pt;
+}
+.two:hover
+{
+  font-size:30pt;
+}
+.three:hover
+{
+  font-size:30pt;
+}
+.four:hover
+{
+  font-size:30pt;
+}
+.five:hover
+{
+  font-size:30pt;
+}
+.six:hover
+{
+  font-size:30pt;
+}
+
+.button{
+	background-color: white;
+	height: 40px;
+	width: 110px;
+	padding-top: 20px;
+	text-align: center;
+	border-radius: 5px;
+	margin-left: 85%;
+	margin-top: 15%;
+	position: fixed;
+	font-size: 20px
+}
+
