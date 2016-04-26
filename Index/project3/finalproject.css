@@ -1,50 +1,123 @@
 body{
-	background-color: black;
-	font-family: 'Josefin Sans', sans-serif;
+	background-color: white;
+	font-family: 'didot', sans-serif;
+	margin: 0;
+}
+/*
+.username-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -160px;
+  margin-top: -60px;
+  width: 250px;
+  height: 45px;
+  border-radius: 10px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,.125);
+  opacity: 1;
+  transition: opacity .2s;
+  z-index: 10;
+}*/
+
+/*.is-hidden { opacity: 0 !important; }*/
+
+.messages {
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
 }
 
 .circle{
-   width: 300px;
-   height: 300px; 
-   border-radius: 200px;
+   width: 100px;
+   height: 100px; 
+   border-radius: 50px;
 	border-color: white;
-	background-color: transparent;
-	margin-top: 15%;
-	margin-left: 40%;
+	background-color: black;
+	margin-top: 20px;
+	margin-left: 20px;
 	border: 3px solid white;
+	z-index: 9;
 }
 
+
 .one{
-	color: white;
-	font-size: 10pt;
-	transform:rotate(20deg);
-	margin-top: -10%;
-	margin-left: 8%;
+	color: #006ef4;
+	font-size: 30pt;
+	margin-top: -20%;
+	margin-left: 43%;
+	display:none;
 }
 
 .two{
-	color: white;
-	font-size: 10pt;
-	transform:rotate(10deg);
+	color: #ce6ef4;
+	font-size: 30pt;
 	margin-top: -2%;
 	margin-left: 8%;
+	display: none;
 }
 
 .three{
-	color: white;
-	font-size: 10pt;
-	transform:rotate(4deg);
+	color: #5fd65e;
+	font-size: 30pt;
 	margin-left: 8%;
+	display:none;
 }
+
+.four{
+	color: #5fd65e;
+	font-size: 30pt;
+	margin-left: 8%;
+	display:none;
+}
+
+.five{
+	color: #5fd65e;
+	font-size: 30pt;
+	margin-left: 8%;
+	display:none;
+}
+
+.six{
+	color: #5fd65e;
+	font-size: 30pt;
+	margin-left: 8%;
+	display:none;
+}
+
+.seven{
+	color: #5fd65e;
+	font-size: 30pt;
+	margin-left: 8%;
+	display:none;
+}
+
+.eight{
+	color: #5fd65e;
+	font-size: 30pt;
+	margin-left: 8%;
+	display:none;
+}
+
+.nine{
+	color: #5fd65e;
+	font-size: 30pt;
+	margin-left: 8%;
+	display:none;
+}
+
 .one:hover
 {
-  font-size:15px;
+  font-size:50px;
 }
 .two:hover
 {
-  font-size:15px;
+  font-size:50px;
 }
 .three:hover
 {
-  font-size:15px;
+  font-size:50px;
 }
+
+
