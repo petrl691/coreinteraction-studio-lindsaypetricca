@@ -1,8 +1,10 @@
 body{
 	background-color: white;
-	font-family: 'didot', sans-serif;
+	font-family: font-family: 'Arapey', serif;
 	margin: 0;
+	background-color: #dbdbda;
 }
+
 /*
 .username-form {
   position: fixed;
@@ -24,100 +26,81 @@ body{
 /*.is-hidden { opacity: 0 !important; }*/
 
 .messages {
-	width: 100%;
-	height: 100%;
+	width: 60%;
+	height: 300%;
+	margin-left: 27%;
+	margin-top: 2%;
 	background-color: transparent;
+	position: absolute;
 }
 
 .circle{
    width: 100px;
    height: 100px; 
    border-radius: 50px;
-	border-color: white;
 	background-color: black;
 	margin-top: 20px;
 	margin-left: 20px;
-	border: 3px solid white;
 	z-index: 9;
+	position: fixed;
 }
 
 
 .one{
 	color: #006ef4;
 	font-size: 30pt;
-	margin-top: -20%;
-	margin-left: 43%;
 	display:none;
 }
 
 .two{
 	color: #ce6ef4;
 	font-size: 30pt;
-	margin-top: -2%;
-	margin-left: 8%;
 	display: none;
 }
 
 .three{
 	color: #5fd65e;
 	font-size: 30pt;
-	margin-left: 8%;
 	display:none;
 }
 
 .four{
 	color: #5fd65e;
 	font-size: 30pt;
-	margin-left: 8%;
 	display:none;
 }
 
 .five{
 	color: #5fd65e;
 	font-size: 30pt;
-	margin-left: 8%;
 	display:none;
 }
 
 .six{
 	color: #5fd65e;
 	font-size: 30pt;
-	margin-left: 8%;
 	display:none;
 }
 
 .seven{
 	color: #5fd65e;
 	font-size: 30pt;
-	margin-left: 8%;
 	display:none;
 }
 
 .eight{
 	color: #5fd65e;
 	font-size: 30pt;
-	margin-left: 8%;
 	display:none;
 }
 
 .nine{
 	color: #5fd65e;
 	font-size: 30pt;
-	margin-left: 8%;
 	display:none;
 }
-
-.one:hover
-{
-  font-size:50px;
-}
-.two:hover
-{
-  font-size:50px;
-}
-.three:hover
-{
-  font-size:50px;
+.circle:hover{
+	cursor: pointer;
 }
 
 
