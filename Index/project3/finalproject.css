@@ -1,8 +1,9 @@
 body{
-	background-color: white;
-	font-family: font-family: 'Arapey', serif;
+	background-color: black;
+	font-family:'Josefin Sans', serif;
 	margin: 0;
-	background-color: #dbdbda;
+	line-height: 2;
+	
 }
 
 /*
@@ -25,11 +26,20 @@ body{
 
 /*.is-hidden { opacity: 0 !important; }*/
 
+.cento{
+	color: white;
+	font-size: 70px;
+	position: fixed;
+	margin-left: 15%;
+	margin-top: 1%;
+	z-index: 10;
+}
+
 .messages {
-	width: 60%;
-	height: 300%;
-	margin-left: 27%;
-	margin-top: 2%;
+	width: 80%;
+	height: 800%;
+	margin-left: 8%;
+	margin-top: 15%;
 	background-color: transparent;
 	position: absolute;
 }
@@ -38,17 +48,135 @@ body{
    width: 100px;
    height: 100px; 
    border-radius: 50px;
-	background-color: black;
+	background-color: white;
 	margin-top: 20px;
 	margin-left: 20px;
+	z-index: 9;
+	position: absolute;
+
+}
+
+/*.circleinside{
+   width: 70px;
+   height: 70px; 
+   border-radius: 35px;
+	background-color: transparent;
+	border: 3px solid black;
+	margin-top: 33px;
+	margin-left: 33px;
+	z-index: 10;
+	position: absolute;
+
+}
+
+.circleinsideone{
+   width: 40px;
+   height: 40px; 
+   border-radius: 20px;
+	background-color: transparent;
+	border: 3px solid black;
+	margin-top: 48px;
+	margin-left: 48px;
+	z-index: 10;
+	position: absolute;
+
+}*/
+
+.circlesmall{
+   width: 50px;
+   height: 50px; 
+   border-radius: 25px;
+	background-color: white;
+	margin-top: 3%;
+	margin-left: 3.2%;
+	z-index: 8;
+	position: fixed;
+
+}
+
+.circlesmallone{
+   width: 50px;
+   height: 50px; 
+   border-radius: 25px;
+	background-color: white;
+	margin-top: 13%;
+	margin-left: 3.2%;
+	z-index: 8;
+	position: fixed;
+
+}
+
+.circlesmalltwo{
+   width: 50px;
+   height: 50px; 
+   border-radius: 25px;
+	background-color: white;
+	margin-top: 23%;
+	margin-left: 3.2%;
+	z-index: 8;
+	position: fixed;
+
+}
+
+.circlesmallthree{
+   width: 50px;
+   height: 50px; 
+   border-radius: 25px;
+	background-color: white;
+	margin-top: 33%;
+	margin-left: 3.2%;
+	z-index: 8;
+	position: fixed;
+
+}
+.circlesmallfour{
+   width: 50px;
+   height: 50px; 
+   border-radius: 25px;
+	background-color: white;
+	margin-top: 43%;
+	margin-left: 3.2%;
+	z-index: 8;
+	position: fixed;
+
+}
+
+.line {
+	width: 5px;
+	height:800%;
+	background-color: white;
+	position: fixed;
+	margin-left: 4.8%;
+	margin-top: 0%;
 	z-index: 9;
 	position: fixed;
 }
 
+.linetwo {
+	width: 90%;
+	height:5px;
+	background-color: white;
+	position: fixed;
+	margin-left: 4.8%;
+	margin-top: 0%;
+	z-index: 10;
+	position: fixed;
+}
+
+.linethree {
+	width: 5px;
+	height:800%;
+	background-color: white;
+	position: fixed;
+	margin-left: 94.5%;
+	margin-top: 0%;
+	z-index: 10;
+	position: fixed;
+}
 
 .one{
 	color: #006ef4;
-	font-size: 30pt;
+	font-size: 20pt;
 	display:none;
 }
 
@@ -60,13 +188,13 @@ body{
 
 .three{
 	color: #5fd65e;
-	font-size: 30pt;
+	font-size: 15pt;
 	display:none;
 }
 
 .four{
 	color: #5fd65e;
-	font-size: 30pt;
+	font-size: 45pt;
 	display:none;
 }
 
@@ -78,13 +206,13 @@ body{
 
 .six{
 	color: #5fd65e;
-	font-size: 30pt;
+	font-size: 25pt;
 	display:none;
 }
 
 .seven{
 	color: #5fd65e;
-	font-size: 30pt;
+	font-size: 15pt;
 	display:none;
 }
 
@@ -96,11 +224,16 @@ body{
 
 .nine{
 	color: #5fd65e;
-	font-size: 30pt;
+	font-size: 50pt;
 	display:none;
 }
 .circle:hover{
 	cursor: pointer;
 }
 
-
+/*
+@keyframes slidedown {
+	from {margin-top: 3%;}
+    to {margin-top: 15%;}
+}
+*/

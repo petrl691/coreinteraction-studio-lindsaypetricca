@@ -210,7 +210,14 @@ var possiblecolors=[
   "yellow",
   "purple",
   "pink",
+  "white",
+  "Lightblue",
+  "salmon",
+
 ]
+
+var size={}
+
 
   Chat.onMessage(function (data) {
 
@@ -222,6 +229,15 @@ var possiblecolors=[
       usercolors[data.sender]=element;
 
       currentcolor=element;
+
+      $( "circle" ).click(function() {
+  $( "circlesmall" ).animate({
+    top: "50",
+  }, 5000, function() {
+    // Animation complete.
+  });
+});
+
     
     }
 
@@ -231,7 +247,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemone.length);
       var element=poemone[index];
       $(".one").html(element);
-      $(".one").show();
+      $(".one").show("fast");
       $(".one").css("color", currentcolor);
     }
 
@@ -239,7 +255,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemtwo.length);
       var element=poemtwo[index];
       $(".two").html(element);
-      $(".two").show();
+      $(".two").show("fast");
       $(".two").css("color", currentcolor);
     }
 
@@ -247,7 +263,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemthree.length);
       var element=poemthree[index];
       $(".three").html(element);
-      $(".three").show();
+      $(".three").show("fast");
       $(".three").css("color", currentcolor);
     }
 
@@ -255,7 +271,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemthree.length);
       var element=poemthree[index];
       $(".four").html(element);
-      $(".four").show();
+      $(".four").show("fast");
       $(".four").css("color", currentcolor);
     }
 
@@ -263,7 +279,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemthree.length);
       var element=poemthree[index];
       $(".five").html(element);
-      $(".five").show();
+      $(".five").show("fast");
       $(".five").css("color", currentcolor);
     }
 
@@ -271,7 +287,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemthree.length);
       var element=poemthree[index];
       $(".six").html(element);
-      $(".six").show();
+      $(".six").show("fast");
       $(".six").css("color", currentcolor);
     }
 
@@ -279,7 +295,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemthree.length);
       var element=poemthree[index];
       $(".seven").html(element);
-      $(".seven").show();
+      $(".seven").show("fast");
       $(".seven").css("color", currentcolor);
     }
 
@@ -287,7 +303,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemthree.length);
       var element=poemthree[index];
       $(".eight").html(element);
-      $(".eight").show();
+      $(".eight").show("fast");
       $(".eight").css("color", currentcolor);
     }
 
@@ -295,7 +311,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemthree.length);
       var element=poemthree[index];
       $(".nine").html(element);
-      $(".nine").show();
+      $(".nine").show("fast");
       $(".nine").css("color", currentcolor);
     }
 
@@ -306,7 +322,6 @@ var possiblecolors=[
 Chat.onUserCountChange(function (newCount) {
   var userCountElement = document.querySelector('.user-count');
 });
-
 
 
 
