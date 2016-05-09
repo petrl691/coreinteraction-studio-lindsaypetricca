@@ -7,8 +7,9 @@
 //   $('.color-input').removeClass('is-hidden');
 // });
 
+
 var messageContainer = document.querySelectorAll('.messages')[0];
-var addMessage = document.querySelectorAll('.circle')[0];
+var addMessage = document.querySelectorAll('#circle')[0];
 var username = Math.random().toString(16).split('.').pop()
 addMessage.addEventListener('click', function () {
   var value = Math.floor(Math.random() * 13);
@@ -20,23 +21,24 @@ addMessage.addEventListener('click', function () {
   });
 });
 
+
 var poemone = [
 
 "I found a dimpled spider, fat and white,",
-"On a white heal-all, holding up a moth",
-"Like a white piece of rigid satin cloth--",
-"Assorted characters of death and blight",
-"Mixed ready to begin the morning right,",
-"Like the ingredients of a witches’ broth--",
-"A snow-drop spider, a flower like a froth,",
-"And dead wings carried like a paper kite.",
+"on a white heal-all, holding up a moth",
+"like a white piece of rigid satin cloth--",
+"assorted characters of death and blight",
+"mixed ready to begin the morning right,",
+"like the ingredients of a witches’ broth--",
+"a snow-drop spider, a flower like a froth,",
+"and dead wings carried like a paper kite.",
 
-"What had that flower to do with being white,",
-"The wayside blue and innocent heal-all?",
-"What brought the kindred spider to that height,",
-"Then steered the white moth thither in the night?",
-"What but design of darkness to appall?--",
-"If design govern in a thing so small.",
+"what had that flower to do with being white,",
+"the wayside blue and innocent heal-all?",
+"what brought the kindred spider to that height,",
+"then steered the white moth thither in the night?",
+"what but design of darkness to appall?--",
+"if design govern in a thing so small.",
 
 ];
 
@@ -44,23 +46,23 @@ var poemtwo = [
 
 "I pour a coating of salt on the table", 
 "and make a circle in it with my finger." ,
-"This is the cycle of life", 
+"this is the cycle of life", 
 "I say to no one." ,
-"This is the wheel of fortune," ,
+"this is the wheel of fortune," ,
 "the Arctic Circle.", 
-"This is the ring of Kerry" ,
+"this is the ring of Kerry" ,
 "and the white rose of Tralee", 
 "I say to the ghosts of my family,", 
 "the dead fathers,", 
 "the aunt who drowned,", 
 "my unborn brothers and sisters,", 
 "my unborn children.", 
-"This is the sun with its glittering spokes", 
+"this is the sun with its glittering spokes", 
 "and the bitter moon.", 
-"This is the absolute circle of geometry", 
+"this is the absolute circle of geometry", 
 "I say to the crack in the wall,", 
 "to the birds who cross the window." ,
-"This is the wheel I just invented", 
+"this is the wheel I just invented", 
 "to roll through the rest of my life", 
 "I say",
 "touching my finger to my tongue.", 
@@ -70,21 +72,21 @@ var poemtwo = [
 var poemthree = [
 
 
-'Others taunt me with having knelt at well-curbs',
-'Always wrong to the light, so never seeing',
-'Deeper down in the well than where the water',
-'Gives me back in a shining surface picture',
-'Me myself in the summer heaven godlike',
-'Looking out of a wreath of fern and cloud puffs.',
-'Once, when trying with chin against a well-curb,',
+'others taunt me with having knelt at well-curbs',
+'always wrong to the light, so never seeing',
+'deeper down in the well than where the water',
+'gives me back in a shining surface picture',
+'me myself in the summer heaven godlike',
+'looking out of a wreath of fern and cloud puffs.',
+'once, when trying with chin against a well-curb,',
 'I discerned, as I thought, beyond the picture,',
-'Through the picture, a something white, uncertain,',
-'Something more of the depths—and then I lost it.',
-'Water came to rebuke the too clear water.',
-'One drop fell from a fern, and lo, a ripple',
-'Shook whatever it was lay there at bottom,',
-'Blurred it, blotted it out. What was that whiteness?',
-'Truth? A pebble of quartz? For once, then, something.',
+'through the picture, a something white, uncertain,',
+'something more of the depths—and then I lost it.',
+'water came to rebuke the too clear water.',
+'one drop fell from a fern, and lo, a ripple',
+'shook whatever it was lay there at bottom,',
+'blurred it, blotted it out. What was that whiteness?',
+'truth? A pebble of quartz? For once, then, something.',
 
 
 ]
@@ -92,9 +94,9 @@ var poemthree = [
 var poemfour = [
 
 
-'Others taunt me with having knelt at well-curbs',
-'Always wrong to the light, so never seeing',
-'Deeper down in the well than where the water',
+'others taunt me with having knelt at well-curbs',
+'always wrong to the light, so never seeing',
+'deeper down in the well than where the water',
 'Gives me back in a shining surface picture',
 'Me myself in the summer heaven godlike',
 'Looking out of a wreath of fern and cloud puffs.',
@@ -202,21 +204,32 @@ var poemeight = [
 var usercolors = {}
 
 var possiblecolors=[
-  "#006ef4",
-  "#ce6ef4",
-  "#5fd65e",
-  "red",
-  "blue",
-  "yellow",
-  "purple",
-  "pink",
-  "white",
-  "Lightblue",
-  "salmon",
+  "#B3C6FF",
+  "#C6B3FF",
+  "#ECB3FF",
+  "#FFB3EC",
+  "#B3ECFF",
+  "#386AFF",
+  "#FFB3C6",
+  "#B3FFEC",
+  "#FFCD38",
+  "#FFDD75",
+  "#FFC6B3",
+  "#B3FFC6",
+  "#C6FFB3",
+  "#ECFFB3"
 
 ]
 
-var size={}
+
+var fontsizes=[
+  "15",
+  "45",
+  "30",
+  "50",
+  "25",
+  "20",
+]
 
 
   Chat.onMessage(function (data) {
@@ -225,18 +238,11 @@ var size={}
     if (!currentcolor) {
       var index=Math.floor(Math.random()*possiblecolors.length);
 
+
       var element=possiblecolors[index];
       usercolors[data.sender]=element;
 
       currentcolor=element;
-
-      $( "circle" ).click(function() {
-  $( "circlesmall" ).animate({
-    top: "50",
-  }, 5000, function() {
-    // Animation complete.
-  });
-});
 
     
     }
@@ -315,6 +321,22 @@ var size={}
       $(".nine").css("color", currentcolor);
     }
 
+  if (data.value == 8) {
+      var index=Math.floor(Math.random()*poemthree.length);
+      var element=poemthree[index];
+      $(".ten").html(element);
+      $(".ten").show("fast");
+      $(".ten").css("color", currentcolor);
+    }
+
+  if (data.value == 8) {
+      var index=Math.floor(Math.random()*poemthree.length);
+      var element=poemthree[index];
+      $(".eleven").html(element);
+      $(".eleven").show("fast");
+      $(".eleven").css("color", currentcolor);
+    }
+
   });
 
 
@@ -323,23 +345,20 @@ Chat.onUserCountChange(function (newCount) {
   var userCountElement = document.querySelector('.user-count');
 });
 
+$( "#circle" ).draggable();
 
+  // $('#circle').click (function () {
+  //       $('#square').show();
+  //   });
 
+$("#square").draggable();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  // $(function() {
+  //     $("#circle").click(function() {
+  //         div = document.createElement('#square');
+  //         $(div).addClass("#square").html("new inner div");
+  //         $(".append").append(div);
+  //       });
+  //   });
 
 

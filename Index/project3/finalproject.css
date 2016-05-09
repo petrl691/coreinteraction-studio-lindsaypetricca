@@ -1,9 +1,10 @@
 body{
-	background-color: black;
-	font-family:'Josefin Sans', serif;
+	background-color:#272727;
+	font-family:'oswald-regular', serif;
 	margin: 0;
-	line-height: 2;
-	
+	line-height: 1.5;
+	/*background-image: url("grid grey.jpg");*/
+
 }
 
 /*
@@ -28,207 +29,225 @@ body{
 
 .cento{
 	color: white;
-	font-size: 70px;
+	font-size: 35px;
 	position: fixed;
-	margin-left: 15%;
-	margin-top: 1%;
+	margin-left: 3%;
+	margin-top: 2%;
 	z-index: 10;
+}
+
+.cento2{
+	color: LightPink;
+	font-size: 35px;
+	position: fixed;
+	margin-left: 3.3%;
+	margin-top: 2.2%;
+	z-index: 9;
 }
 
 .messages {
-	width: 80%;
-	height: 800%;
-	margin-left: 8%;
-	margin-top: 15%;
+	width: 90%;
+	height: 300%;
+	margin-left: 20%;
+	margin-top: 8%;
 	background-color: transparent;
 	position: absolute;
+	font-family: 'oswald-light';
 }
 
-.circle{
-   width: 100px;
-   height: 100px; 
-   border-radius: 50px;
-	background-color: white;
-	margin-top: 20px;
-	margin-left: 20px;
-	z-index: 9;
-	position: absolute;
+#circle{
+   width: 80px;
+   height: 80px; 
+   border-radius: 40px;
+   border: white 1px solid;
+	margin-top: 4%;
+	margin-left: 90%;
+	z-index: 10;
+	position: fixed;
+	background-color:LightPink;
 
 }
 
-/*.circleinside{
+#circle:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: pink;
+}
+
+/*.circleshadow{
    width: 70px;
    height: 70px; 
    border-radius: 35px;
-	background-color: transparent;
-	border: 3px solid black;
-	margin-top: 33px;
-	margin-left: 33px;
-	z-index: 10;
-	position: absolute;
-
-}
-
-.circleinsideone{
-   width: 40px;
-   height: 40px; 
-   border-radius: 20px;
-	background-color: transparent;
-	border: 3px solid black;
-	margin-top: 48px;
-	margin-left: 48px;
-	z-index: 10;
-	position: absolute;
+	background-color: white;
+	margin-top: 45.3%;
+	margin-left:90.3%;
+	z-index: 9;
+	position: fixed;
 
 }*/
 
-.circlesmall{
-   width: 50px;
-   height: 50px; 
-   border-radius: 25px;
-	background-color: white;
-	margin-top: 3%;
-	margin-left: 3.2%;
-	z-index: 8;
-	position: fixed;
 
-}
+
+
+/*.circlesmall{
+   width: 30px;
+   height: 30px; 
+   border-radius: 15px;
+	background-color: LightBlue;
+	margin-top: 3.5%;
+	margin-left: 4%;
+	z-index: 10;
+	position: fixed;
+	
+}*/
 
 .circlesmallone{
-   width: 50px;
-   height: 50px; 
-   border-radius: 25px;
-	background-color: white;
-	margin-top: 13%;
-	margin-left: 3.2%;
-	z-index: 8;
+   width: 30px;
+   height: 30px; 
+   border-radius: 15px;
+	background-color: LightBlue;
+	margin-top: 13.5%;
+	margin-left: 3.9%;
+	z-index: 10;
 	position: fixed;
+
 
 }
 
 .circlesmalltwo{
-   width: 50px;
-   height: 50px; 
-   border-radius: 25px;
-	background-color: white;
-	margin-top: 23%;
-	margin-left: 3.2%;
-	z-index: 8;
+   width: 30px;
+   height: 30px; 
+   border-radius: 15px;
+	background-color: LightBlue;
+	margin-top: 23.5%;
+	margin-left: 3.9%;
+	z-index: 10;
 	position: fixed;
+
 
 }
 
 .circlesmallthree{
-   width: 50px;
-   height: 50px; 
-   border-radius: 25px;
-	background-color: white;
-	margin-top: 33%;
-	margin-left: 3.2%;
-	z-index: 8;
+   width: 30px;
+   height: 30px; 
+   border-radius: 15px;
+background-color: LightBlue;
+	margin-top: 33.5%;
+	margin-left: 3.9%;
+	z-index: 10;
 	position: fixed;
+
 
 }
 .circlesmallfour{
-   width: 50px;
-   height: 50px; 
-   border-radius: 25px;
-	background-color: white;
-	margin-top: 43%;
-	margin-left: 3.2%;
-	z-index: 8;
+   width: 30px;
+   height: 30px; 
+   border-radius: 15px;
+	background-color: LightBlue;
+	margin-top: 43.5%;
+	margin-left:3.9%;
+	z-index: 10;
 	position: fixed;
+	
 
 }
 
-.line {
-	width: 5px;
-	height:800%;
+
+.linetwo {
+	width: 100%;
+	height:3px;
 	background-color: white;
 	position: fixed;
-	margin-left: 4.8%;
-	margin-top: 0%;
+	margin-top: 5.5%;
 	z-index: 9;
 	position: fixed;
 }
 
-.linetwo {
-	width: 90%;
-	height:5px;
-	background-color: white;
-	position: fixed;
-	margin-left: 4.8%;
-	margin-top: 0%;
-	z-index: 10;
-	position: fixed;
-}
-
-.linethree {
-	width: 5px;
-	height:800%;
-	background-color: white;
-	position: fixed;
-	margin-left: 94.5%;
-	margin-top: 0%;
-	z-index: 10;
-	position: fixed;
-}
 
 .one{
 	color: #006ef4;
-	font-size: 20pt;
+	font-size: 35pt;
 	display:none;
+
 }
 
 .two{
 	color: #ce6ef4;
-	font-size: 30pt;
+	font-size: 35pt;
 	display: none;
 }
 
 .three{
 	color: #5fd65e;
-	font-size: 15pt;
+	font-size: 35pt;
 	display:none;
 }
 
 .four{
 	color: #5fd65e;
-	font-size: 45pt;
+	font-size: 35pt;
 	display:none;
 }
 
 .five{
 	color: #5fd65e;
-	font-size: 30pt;
+	font-size: 35pt;
 	display:none;
 }
 
 .six{
 	color: #5fd65e;
-	font-size: 25pt;
+	font-size: 35pt;
 	display:none;
 }
 
 .seven{
 	color: #5fd65e;
-	font-size: 15pt;
+	font-size: 35pt;
 	display:none;
 }
 
 .eight{
 	color: #5fd65e;
-	font-size: 30pt;
+	font-size: 35pt;
 	display:none;
 }
 
 .nine{
-	color: #5fd65e;
-	font-size: 50pt;
+	font-size: 35pt;
 	display:none;
 }
-.circle:hover{
-	cursor: pointer;
+
+
+.ten{
+	font-size: 35pt;
+	display:none;
+}
+
+
+.eleven{
+	font-size: 35pt;
+	display:none;
+}
+
+#circle:hover {
+    cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+ /* (Optional) Apply a "closed-hand" cursor during drag operation. */
+#circle:active { 
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+#square{
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	display:none;
 }
 
 /*
