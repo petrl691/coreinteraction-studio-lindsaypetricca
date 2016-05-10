@@ -28,7 +28,7 @@ body{
 /*.is-hidden { opacity: 0 !important; }*/
 
 .cento{
-	color: LightPink;
+	color: white;
 	font-size: 35px;
 	position: fixed;
 	margin-left: 3%;
@@ -37,7 +37,7 @@ body{
 }
 
 .cento2{
-	color: white;
+	color: LightPink;
 	font-size: 35px;
 	position: fixed;
 	margin-left: 3.3%;
@@ -47,7 +47,7 @@ body{
 
 .messages {
 	width: 90%;
-	height: 300%;
+	height: 200%;
 	margin-left: 23%;
 	margin-top: 8%;
 	background-color: transparent;
@@ -94,6 +94,7 @@ background-color: LightPink;
 #circle:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     background-color: pink;
+   /**/
 }
 
 #square:hover {
@@ -182,7 +183,7 @@ background-color: LightBlue;
 
 .linetwo {
 	width: 100%;
-	height:80px;
+	height:75px;
 	background-color: black;
 	position: fixed;
 	z-index: 8;
@@ -293,10 +294,22 @@ background-color: LightBlue;
 }
 
 
-
-/*
-@keyframes slidedown {
-	from {margin-top: 3%;}
-    to {margin-top: 15%;}
+#bar{
+    position:absolute;
+	width:2%;
+    height:80%;
+    margin-top: 8%;
+    background-color:LightPink;
+    border-top:solid white 3px;
+	border-right:solid white 3px;
+	border-bottom:solid white 3px;
+	transition: width 1s;
 }
-*/
+
+
+#bar:hover{
+	width: 20%;
+	transition: width 1s;
+}
+
+

@@ -15,7 +15,7 @@ addMessage.addEventListener('click', function () {
   var value = Math.floor(Math.random() * 13);
 
   Chat.sendMessage({
-    sender: username,
+    sender: 'Lindsay',
     type: 'raw',
     value: value,
   });
@@ -453,4 +453,16 @@ $("#square").draggable();
   //       });
   //   });
 
+// $("#bar").mouseover(function(){
+//     $("#bar").stop().animate({
+//         "left":"-20px",
+//         "left":"50px"
+//     });
+// });
+// $("#bar").mouseout(function(){
+//     $("#bar").stop().animate({
+//         "left":"0px",
+//         "left":"0px"
+//     });
+// });
 
