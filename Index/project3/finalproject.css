@@ -295,7 +295,7 @@ background-color: LightBlue;
 
 
 #bar{
-    position:absolute;
+    position:fixed;
 	width:2%;
     height:80%;
     margin-top: 8%;
