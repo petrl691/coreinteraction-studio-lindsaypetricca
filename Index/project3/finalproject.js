@@ -40,7 +40,7 @@ var poemone = [
 "what but design of darkness to appall?--",
 "if design govern in a thing so small.",
 
-];
+]
 
 var poemtwo = [
 
@@ -210,40 +210,49 @@ var poemeight = [
 
 var poemnine = [
 
-'Somewhere or other there must surely be', 
-'The face not seen, the voice not heard',
-'The heart that not yet—never yet—ah me', 
-'Made answer to my word', 
+'somewhere or other there must surely be', 
+'the face not seen, the voice not heard',
+'the heart that not yet—never yet—ah me', 
+'made answer to my word', 
 
-'Somewhere or other, may be near or far', 
-'Past land and sea, clean out of sight', 
-'Beyond the wandering moon, beyond the star', 
-'That tracks her night by night', 
+'somewhere or other, may be near or far', 
+'past land and sea, clean out of sight', 
+'beyond the wandering moon, beyond the star', 
+'that tracks her night by night', 
 
-'Somewhere or other, may be far or near', 
-'With just a wall, a hedge, between', 
-'With just the last leaves of the dying year', 
-'Fallen on a turf grown green', 
+'somewhere or other, may be far or near', 
+'with just a wall, a hedge, between', 
+'with just the last leaves of the dying year', 
+'fallen on a turf grown green', 
 
 
 
 ]
 
 var poemten = [
-'Somewhere or other there must surely be', 
-'The face not seen, the voice not heard',
-'The heart that not yet—never yet—ah me', 
-'Made answer to my word', 
-
-'Somewhere or other, may be near or far', 
-'Past land and sea, clean out of sight', 
-'Beyond the wandering moon, beyond the star', 
-'That tracks her night by night', 
-
-'Somewhere or other, may be far or near', 
-'With just a wall, a hedge, between', 
-'With just the last leaves of the dying year', 
-'Fallen on a turf grown green', 
+'you have changed me already. I am a fireball',
+'yhat is hurtling towards the sky to where you are',
+'you can choose not to look up but I am a giant orange ball',
+'that is throwing sparks upon your face',
+'oh look at them shake',
+'upon you like a great planet that has been murdered by change',
+'o too this is so dramatic this shaking',
+'of my great planet that is bigger than you thought it would be',
+'so you ran and hid',
+'under a large tree. She was graceful, I think',
+'that tree although soon she will wither',
+'into ten black snakes upon your throat',
+'and when she does I will be wandering as I always am',
+'a graceful lady that is part museum',
+'of the voices of the universe everyone else forgets',
+'I will hold your voice in a little box',
+'and when you come upon me I won’t look back at you',
+'you will feel a hand upon your heart while I place your voice back',
+'into the heart from where it came from',
+'and I will not cry also',
+'although you will expect me to',
+'I was wiser too than you had expected',
+'for I knew all along you were mine,', 
 
 
 
@@ -253,21 +262,14 @@ var poemten = [
 
 var poemeleven = [
 
-'Somewhere or other there must surely be', 
-'The face not seen, the voice not heard',
-'The heart that not yet—never yet—ah me', 
-'Made answer to my word', 
-
-'Somewhere or other, may be near or far', 
-'Past land and sea, clean out of sight', 
-'Beyond the wandering moon, beyond the star', 
-'That tracks her night by night', 
-
-'Somewhere or other, may be far or near', 
-'With just a wall, a hedge, between', 
-'With just the last leaves of the dying year', 
-'Fallen on a turf grown green', 
-
+'natures first green is gold,',
+'her hardest hue to hold',
+'her early leaves a flower', 
+'but only so an hour',
+'then leaf subsides to leaf,',
+'so Eden sank to grief',
+'so dawn goes down to day',
+'nothing gold can stay', 
 
 
 
