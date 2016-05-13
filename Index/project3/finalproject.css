@@ -30,9 +30,9 @@ body{
 
 .cento{
 	color: white;
-	font-size: 39px;
+	font-size: 31pt;
 	position: fixed;
-	margin-left: 2%;
+	margin-left: 1.3%;
 	margin-top: 1%;
 	z-index: 10;
 	transition: height .5s;
@@ -40,9 +40,9 @@ body{
 
 .cento2{
 	color: LightPink;
-	font-size: 39px;
+	font-size: 31pt;
 	position: fixed;
-	margin-left: 2.3%;
+	margin-left: 1.6%;
 	margin-top: 1.2%;
 	z-index: 9;
 	transition: height .5s;
@@ -55,8 +55,6 @@ body{
 	margin-top: 8%;
 	background-color: transparent;
 	position: absolute;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
 	text-align: justify;
 }
 
@@ -72,6 +70,8 @@ body{
 	background-color:pink;
 
 }
+
+
 
 #triangle{
 width: 0;
@@ -188,7 +188,7 @@ background-color: LightBlue;
 
 .linetwo {
 	width: 100%;
-	height:70px;
+	height:75px;
 	background-color: black;
 	position: fixed;
 	z-index: 2;
@@ -211,8 +211,8 @@ background-color: LightBlue;
 
 }
 .line {
-	width: 20%;
-	height:70px;
+	width: 19.5%;
+	height:75px;
 	background-color: black;
 	position: fixed;
 	z-index: 9;
@@ -365,7 +365,9 @@ background-color: LightBlue;
 
 }
 
-
+#circle:active{
+	background-color:white;
+}
 
 span.fp{
 	font-size: 40px;
