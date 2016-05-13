@@ -277,20 +277,23 @@ var poemeleven = [
 
 var poemtwelve = [
 
-'Somewhere or other there must surely be', 
-'The face not seen, the voice not heard',
-'The heart that not yet—never yet—ah me', 
-'Made answer to my word', 
+'you did not come',
+'and marching Time drew on, and wore me numb',
+'yet less for loss of your dear presence there ',
+'than that I thus found lacking in your make ',
+'that high compassion which can overbear', 
+'reluctance for pure lovingkindness’ sake' ,
+'grieved I, when, as the hope-hour stroked its sum',
+'you did not come',
 
-'Somewhere or other, may be near or far', 
-'Past land and sea, clean out of sight', 
-'Beyond the wandering moon, beyond the star', 
-'That tracks her night by night', 
-
-'Somewhere or other, may be far or near', 
-'With just a wall, a hedge, between', 
-'With just the last leaves of the dying year', 
-'Fallen on a turf grown green', 
+'you love not me',
+'and love alone can lend you loyalty', 
+'I know and knew it. But, unto the store',
+'of human deeds divine in all but name',
+'was it not worth a little hour or more',
+'to add yet this: Once you, a woman, came',
+'to soothe a time-torn man; even though it be ',
+'you love not me ',
 
 
 
@@ -339,7 +342,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemone.length);
       var element=poemone[index];
       $(".one").html(element);
-      $(".one").show("fast");
+      $(".one").show("slow");
       $(".one").css("color", currentcolor);
     }
 
@@ -347,7 +350,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemtwo.length);
       var element=poemtwo[index];
       $(".two").html(element);
-      $(".two").show("fast");
+      $(".two").show("slow");
       $(".two").css("color", currentcolor);
     }
 
@@ -355,7 +358,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemthree.length);
       var element=poemthree[index];
       $(".three").html(element);
-      $(".three").show("fast");
+      $(".three").show("slow");
       $(".three").css("color", currentcolor);
     }
 
@@ -363,7 +366,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemthree.length);
       var element=poemthree[index];
       $(".four").html(element);
-      $(".four").show("fast");
+      $(".four").show("slow");
       $(".four").css("color", currentcolor);
     }
 
@@ -371,7 +374,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemthree.length);
       var element=poemthree[index];
       $(".five").html(element);
-      $(".five").show("fast");
+      $(".five").show("slow");
       $(".five").css("color", currentcolor);
     }
 
@@ -379,7 +382,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemthree.length);
       var element=poemthree[index];
       $(".six").html(element);
-      $(".six").show("fast");
+      $(".six").show("slow");
       $(".six").css("color", currentcolor);
     }
 
@@ -387,7 +390,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemthree.length);
       var element=poemthree[index];
       $(".seven").html(element);
-      $(".seven").show("fast");
+      $(".seven").show("slow");
       $(".seven").css("color", currentcolor);
     }
 
@@ -395,7 +398,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemthree.length);
       var element=poemthree[index];
       $(".eight").html(element);
-      $(".eight").show("fast");
+      $(".eight").show("slow");
       $(".eight").css("color", currentcolor);
     }
 
@@ -403,7 +406,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemthree.length);
       var element=poemthree[index];
       $(".nine").html(element);
-      $(".nine").show("fast");
+      $(".nine").show("slow");
       $(".nine").css("color", currentcolor);
     }
 
@@ -411,7 +414,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemthree.length);
       var element=poemthree[index];
       $(".ten").html(element);
-      $(".ten").show("fast");
+      $(".ten").show("slow");
       $(".ten").css("color", currentcolor);
     }
 
@@ -419,7 +422,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemthree.length);
       var element=poemthree[index];
       $(".eleven").html(element);
-      $(".eleven").show("fast");
+      $(".eleven").show("slow");
       $(".eleven").css("color", currentcolor);
     }
 
@@ -427,7 +430,7 @@ var possiblecolors=[
       var index=Math.floor(Math.random()*poemthree.length);
       var element=poemthree[index];
       $(".twelve").html(element);
-      $(".twelve").show("fast");
+      $(".twelve").show("slow");
       $(".twelve").css("color", currentcolor);
     }
 
@@ -467,4 +470,22 @@ $("#square").draggable();
 //         "left":"0px"
 //     });
 // });
+
+// $('#bar').hover(function () {
+//   $(".poems").show();
+
+
+// });
+
+
+$(".line").hover(
+    function(){
+        $(".poem").delay(400).fadeIn();
+    },
+    function(){
+        $(".poem").fadeOut(100);
+    }
+);
+
+
 
